@@ -1,0 +1,19 @@
+#ktbChat_main{
+	left:0px;bottom:0px;position:fixed;
+	font-family:'Times New Roman', Times, serif;
+	border:3px solid #000;margin:0px;padding:0px;
+	font-size:13px;
+	z-index:9999999999999999999;			
+}
+.ktbGuest{ 
+	width:180px;height:25px;background:#fff;				
+	padding:10px;				
+	margin:0px;
+	color:#000;				 
+	font-size:150%;
+	cursor:move;				
+}
+.ktbGuest span{
+	color:#FF0033;
+	font-weight:bold;
+}

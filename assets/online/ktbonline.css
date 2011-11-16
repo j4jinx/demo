@@ -1,0 +1,226 @@
+div#ktbBox{
+margin:0;
+padding:0;
+width:302px;
+height:508px;
+}
+
+div.ktbboxcommon{
+	overflow: hidden;	
+	float: left;
+	display:block;
+	position: relative;
+	width: 300px;
+	background-color: #B2B2B2;
+}
+/*Profile Starts*/
+	div.ktbmyprofile{ 	
+		height: 60px;	
+		margin: 0 0 5px 0;
+		border: 1px solid #000;			  
+	}
+
+	div.ktbmyprofile div.itemimg{
+		float: left;
+		height: 56px;
+		width: 56px;
+		margin: 1px;
+		background-color: transparent;
+		cursor: pointer;
+		border: 1px solid silver;
+	}
+	img.default{	
+		padding:1px;
+		margin:2px;
+		border: 1px solid silver;
+		
+	}
+	div.itemimg img:hover{
+		box-shadow: 0px 0px 5px #000;
+		-webkit-box-shadow: 0px 0px 5px #000;
+		-moz-box-shadow: 0px 0px 5px #000;
+	}
+	
+/* Item Info Start*/
+	div.ktbmyprofile div.iteminfo{
+		float: left;
+		height: 56px;
+		width: 236px;
+		margin: 2px;	
+		text-align:left;
+		font-family: Arial, Helvetica, sans-serif;
+		text-transform:capitalize; 	
+	}
+	div.iteminfo div.itemtop{
+		float: left;
+		height: 24px;
+		width: 236px;	
+		display:block;
+	}
+	div.itemtop span.itemtopleft{
+		float:left;
+		height: 22px;
+		padding:1px 1px 1px 5px;
+		width:158px;	
+		font-size: 1em;
+		color:#000;	
+		white-space:nowrap;
+		overflow:hidden;
+		word-spacing:normal;
+		text-overflow:ellipsis;
+		text-transform:uppercase; 
+		
+	}
+	div.itemtop span.itemtopleft:hover{
+		text-overflow:inherit;
+		overflow:visible;
+	}
+	div.itemtop span.itemtopright{
+		float:left;
+		height: 24px;
+		width:72px; 
+		xborder: 1px dashed black;
+	}
+	span.itemtopright img.ktbhelp{
+		float:right;
+		padding:2px;
+		margin:1px;
+		xborder: 1px dotted black;
+		cursor:pointer;
+		background-color:#666;	
+	}
+
+	div.iteminfo div.itembot{
+		float: left;
+		height: 28px;
+		width: 230px;	
+		display:block;
+		padding:2px 3px 2px 3px;
+		xborder: 1px solid silver;	
+		font-size: 10px;
+		line-height:11px;
+		color:#fff; 
+		word-wrap:break-word;
+		white-space:normal;
+		word-spacing:normal;	
+		overflow:hidden;
+		text-overflow:ellipsis;
+		background-image:url('../images/pencil.png');
+		background-repeat:no-repeat;
+		background-attachment:scroll;
+		background-position:right;
+		background-origin:content-box;
+		background-size:15px 15px;
+		cursor: pointer;	
+	}
+	div.iteminfo div.itembot:hover{
+		background-image:url('../images/pencil-color.png');
+		xbox-shadow: 0px 0px 5px #000;
+		x-webkit-box-shadow: 0px 0px 5px #000;
+		x-moz-box-shadow: 0px 0px 5px #000;
+	}
+/* Item Info Ends*/
+/*Profile Ends*/
+
+/*Top Start*/
+	div.ktbtop{	
+		xheight: 33px;	
+		xmargin: 0 0 5px 0;
+		xborder: 1px solid #000;	
+	}
+/*Top Ends*/
+
+/*Medium Start*/
+	div.ktbmed{	
+		xheight: 326px;	
+		xmargin: 0 0 5px 0;
+		xborder: 1px solid #000;
+		overflow: hidden;	
+	}
+	div.ktbmedlist{
+		background-color: #eee;
+		display: block;
+		overflow: auto;		
+		overflow-y: auto;
+		overflow-x: hidden;
+	}
+	div.ktbsortlist {
+		border-bottom: 1px dotted #B2B2B2;
+		xbackground-color: #B2B2B2;
+		color: #000;
+		cursor: pointer;
+		margin: 3px;
+		xpadding: 5px;
+		width: 280px;
+		height:36px;
+		background-image:url('../images/star.png');
+		background-repeat:no-repeat;
+		background-attachment:scroll;
+		background-position:right;
+		background-origin:content-box;
+		background-size:18px 18px;
+	}
+	div.ktbsortlist:hover{
+		background-color: #B2B2B2;
+		background-image:url('../images/star-color.png');
+	}
+	div.ktbsortlist div.userwrapper{
+		height:23px;
+		float:left;
+		width:280px;
+		display:block;
+	}
+	div.userwrapper div.userimg{
+		width:25px;
+		height:23px;
+		float:left;
+	}
+	div.userwrapper div.usertitle{
+		width:250px;
+		height:18px;
+		float:left;
+		margin-left:5px;
+		white-space:nowrap;
+		overflow:hidden;
+		word-spacing:normal;
+		text-overflow:ellipsis;
+		text-transform:uppercase;
+		font-size:13px;
+		xfont-weight:bold;
+		line-height:14px;
+		padding-top:5px;
+	}
+	div.ktbsortlist div.userstatus{
+		height:12px;
+		line-height:11px;
+		float:left;
+		width:277px;
+		margin-left:3px;
+		margin-top:1px;				
+		display:block;
+		white-space:nowrap;
+		overflow:hidden;
+		word-spacing:normal;
+		text-overflow:ellipsis;
+		font-size:10px;
+	}
+	div.ktbmedthumb{ 
+		overflow: hidden;
+	}
+	div.ktbmedlog{ 
+		overflow: hidden;
+	}
+/*Medium Ends*/
+
+/*Bottom Start*/
+	div.ktbbot{	
+		xheight: 73px;	
+		xmargin: 0;
+		xborder: 1px solid #000;	
+	}
+/*Bottom Ends*/
+
+/*Misc Classes*/
+div.ktboffline{
+	opacity:0.5;
+}
