@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="1.6" type="plugin" group="system">
+	<name>plg_system_jtalk</name>
+	<author>Amol Meshram</author>
+	<creationDate>DEC 2010</creationDate>
+	<copyright>Copyright (C) jLancers.com. All rights reserved.</copyright>
+	<license>GNU General Public License version 3 or later</license>
+	<authorEmail>amol@meshram.com</authorEmail>
+	<authorUrl>http://amol.meshram.com</authorUrl>
+	<version>1.0b</version>
+	<description>Joomla 1.6 RealTime Chat Plugin</description>	
+
+	<files>
+		<filename plugin="jtalk">jtalk.php</filename>
+		<filename>index.html</filename>
+		<folder>assets</folder>			
+	</files>
+	<languages folder="language">		
+		<language tag="en-GB">en-GB/en-GB.plg_system_jtalk.ini</language>
+		<language tag="en-GB">en-GB/en-GB.plg_system_jtalk.sys.ini</language>
+	</languages>
+
+	<config>
+		<fields name="params">
+			<fieldset name="basic">				
+				
+				<field name="chan_name" type="text" default="" label="KTB_CHANNEL_LABEL" description="KTB_CHANNEL_DESC" />
+				<field name="dom_name" type="text" default="" label="KTB_DOMAIN_NAME_LABEL" description="KTB_DOMAIN_NAME_DESC" />
+				<field name="api_key" type="text" default="" label="KTB_API_KEY_LABEL" description="KTB_API_KEY_DESC" />
+				<field name="user_name" type="text" default="" label="KTB_USER_NAME_LABEL" description="KTB_USER_NAME_DESC" />
+				<field name="password" type="text" default="" label="KTB_PASSWORD_LABEL" description="KTB_PASSWORD_DESC" />
+				<field name="status" type="text" default="Hi, There" label="KTB_DEFAULT_STATUS_LABEL" description="KTB_DEFAULT_STATUS_DESC" />
+				<field name="chat_type" type="list" default="0" label="KTB_CHAT_TYPE_LABEL" description="KTB_CHAT_TYPE_DESC">
+					<option value="0">KTB_CHAT_TYPE_VAL0</option>
+					<option value="1">KTB_CHAT_TYPE_VAL1</option>			
+				</field>
+				<field name="name_type" type="list" default="0" label="KTB_NAME_TYPE_LABEL" description="KTB_NAME_TYPE_DESC">
+					<option value="0">KTB_NAME_TYPE_VAL0</option>
+					<option value="1">KTB_NAME_TYPE_VAL1</option>			
+				</field>					
+		
+		    </fieldset>           	
+		</fields>
+	</config>
+</extension>
